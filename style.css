@@ -1,0 +1,156 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 95px 120px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 34px;
+}
+.header-menu a {
+  text-decoration: none;
+}
+
+/* banner css  */
+
+.banner {
+  display: flex;
+  padding: 0 132px 70px 120px;
+  justify-content: space-between;
+}
+
+.banner-heading {
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+}
+
+.banner-text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+.banner-btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e02c6d;
+  border-radius: 41px;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 24px;
+}
+
+.banner-btn {
+}
+
+.banner-right {
+  background-image: url(/images/Circle\ design.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.brands {
+  display: flex;
+  margin: 165px;
+  padding: 36px 62px;
+  gap: 62px;
+  justify-content: center;
+}
+
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star.filled {
+  color: aliceblue;
+}
+
+/* product section css  */
+
+.products-section {
+}
+
+.products-heading {
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products {
+  margin: 50px 197px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+}
+
+.product {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 17px 15px;
+}
+.product img {
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+}
+
+/* end section css  */
+
+.section-end {
+  display: flex;
+  margin: 100px 165px;
+  gap: 96px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.end-btn {
+  display: flex;
+}
+
+.end-btn-txt {
+  background: #e02c6d;
+  width: 155px;
+  height: 44px;
+  color: white;
+  padding: 10px 24px;
+}
+
+/* footer section */
+.footer-section {
+  background: #0a0826;
+}
+.footer-area {
+  padding: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.footer-text {
+  font-weight: 700;
+  font-size: 14px;
+  color: #d9dbe1;
+}
+
+.fa-youtube {
+  color: #e02c6d;
+  background-color: #ffffff;
+  opacity: 0.1;
+}
